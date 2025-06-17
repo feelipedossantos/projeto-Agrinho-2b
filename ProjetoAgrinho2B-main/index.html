@@ -60,19 +60,19 @@
   <div class="sabores-grid">
     <div class="sabor-item">
       <h3>🍯 Mel Artesanal</h3>
-      <p>DESCRIÇÃO</p>
+      <p><img src="agrinho 2b/mel.webp" alt="mel">O</p>
     </div>
     <div class="sabor-item">
       <h3>🧀 Queijo Caipira</h3>
-      <p>DESCRIÇÃO</p>
+      <p><img src="agrinho 2b/queijo.jpeg" alt="queijo"></p>
     </div>
     <div class="sabor-item">
       <h3>Produção de leite</h3>
-      <p>DESCRIÇÃO</p>
+      <p><img src="agrinho 2b/leite.jpeg" alt="leite"></p>
     </div>
     <div class="sabor-item">
       <h3>🌱 Plantações de soja</h3>
-      <p>DESCRIÇÃO</p>
+      <p><img src="agrinho 2b/soja.jpeg" alt="soja"></p>
     </div>
   </div>
 </section>
@@ -81,4 +81,45 @@
   <p>Desenvolvido por alunos do 2º ano - Concurso Agrinho Paraná 2025 </p>
 </footer>
 </body>
-</html>
+</html>.sabores {
+  background-color: #fffbea;
+  padding: 40px 20px;
+  border-radius: 12px;
+  margin-top: 40px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.sabores h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #8b5e3c;
+  margin-bottom: 30px;
+}
+
+.sabores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.sabor-item {
+  background: #fffcf7;
+  padding: 20px;
+  border-left: 6px solid #cc671f;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.sabor-item:hover {
+  transform: translateY(-5px);
+}
+
+.sabor-item h3 {
+  color: #5d4037;
+  margin-bottom: 10px;
+}
+
+.sabor-item p {
+  font-size: 1em;
+  color: #555;
+}
